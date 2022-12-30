@@ -11,7 +11,8 @@ const routes: Routes = [
       pathMatch:'prefix',
       
     }] */
-  }
+  },
+  { path: 'admin', loadChildren: () => import('./modules/admin/admin.module').then(m => m.AdminModule) }
 ];
 
 @NgModule({

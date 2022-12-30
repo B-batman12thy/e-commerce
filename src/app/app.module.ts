@@ -5,12 +5,12 @@ import { AppComponent } from './app.component';
 import { PrimengModule } from './primeng/primeng.module';
 import { SharedModule } from './shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AdminModule } from './modules/admin/admin.module';
 
 
 @NgModule({
     declarations: [
-        AppComponent,
-        
+        AppComponent,        
     ],
     providers: [],
     bootstrap: [AppComponent],
@@ -19,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         AppRoutingModule,
         SharedModule,
         PrimengModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        AdminModule
     ]
 })
 export class AppModule { }
