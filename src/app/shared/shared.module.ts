@@ -5,7 +5,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { FullComponentComponent } from './full-component/full-component.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { PrimengModule } from '../primeng/primeng.module';
-import { TabMenuModule } from 'primeng/tabmenu';
+import { AngularMaterialModule } from '../angular-material/angular-material.module';
 
 
 
@@ -19,7 +19,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
     CommonModule,
     AppRoutingModule,
     PrimengModule,
-    TabMenuModule
+    AngularMaterialModule
   ]
 })
 export class SharedModule { }

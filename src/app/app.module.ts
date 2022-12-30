@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { AccueilComponent } from './modules/accueil/accueil.component';
 import { PrimengModule } from './primeng/primeng.module';
 import { SharedModule } from './shared/shared.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SharedModule } from './shared/shared.module';
         BrowserModule,
         AppRoutingModule,
         SharedModule,
-        PrimengModule
+        PrimengModule,
+        BrowserAnimationsModule
     ]
 })
 export class AppModule { }

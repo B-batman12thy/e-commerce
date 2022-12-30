@@ -6,6 +6,11 @@ const routes: Routes = [
   {
     path:'',
     component:FullComponentComponent,
+    children:[{
+      path:'',
+      pathMatch:'prefix',
+      
+    }]
   }
 ];
 
