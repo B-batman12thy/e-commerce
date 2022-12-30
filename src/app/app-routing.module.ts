@@ -6,11 +6,11 @@ const routes: Routes = [
   {
     path:'',
     component:FullComponentComponent,
-    children:[{
+   /*  children:[{
       path:'',
       pathMatch:'prefix',
       
-    }]
+    }] */
   }
 ];
 
